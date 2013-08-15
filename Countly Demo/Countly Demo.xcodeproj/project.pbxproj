@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF76550E17BCF76E005176DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF76550D17BCF76E005176DE /* UIKit.framework */; };
+		DF76551017BCF76E005176DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF76550F17BCF76E005176DE /* Foundation.framework */; };
+		DF76551217BCF76E005176DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF76551117BCF76E005176DE /* CoreGraphics.framework */; };
+		DF76551817BCF76E005176DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF76551617BCF76E005176DE /* InfoPlist.strings */; };
+		DF76551A17BCF76E005176DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF76551917BCF76E005176DE /* main.m */; };
+		DF76551E17BCF76E005176DE /* BTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF76551D17BCF76E005176DE /* BTAppDelegate.m */; };
+		DF76552017BCF76E005176DE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DF76551F17BCF76E005176DE /* Default.png */; };
+		DF76552217BCF76E005176DE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF76552117BCF76E005176DE /* Default@2x.png */; };
+		DF76552417BCF76E005176DE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF76552317BCF76E005176DE /* Default-568h@2x.png */; };
+		DF76552717BCF76E005176DE /* BTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF76552617BCF76E005176DE /* BTViewController.m */; };
+		DF76552A17BCF76E005176DE /* BTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF76552817BCF76E005176DE /* BTViewController.xib */; };
+		DF76553917BCF784005176DE /* Countly_OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = DF76553217BCF784005176DE /* Countly_OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DF76553A17BCF784005176DE /* Countly.m in Sources */ = {isa = PBXBuildFile; fileRef = DF76553417BCF784005176DE /* Countly.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DF76553B17BCF784005176DE /* Countly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF76553517BCF784005176DE /* Countly.xcdatamodeld */; };
+		DF76553C17BCF784005176DE /* CountlyDB.m in Sources */ = {isa = PBXBuildFile; fileRef = DF76553817BCF784005176DE /* CountlyDB.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DF76553E17BCF8F5005176DE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF76553D17BCF8F5005176DE /* CoreData.framework */; };
+		DF76554017BCF8FF005176DE /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF76553F17BCF8FF005176DE /* CoreTelephony.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF76550A17BCF76E005176DE /* Countly Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Countly Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF76550D17BCF76E005176DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF76550F17BCF76E005176DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF76551117BCF76E005176DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF76551517BCF76E005176DE /* Countly Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Countly Demo-Info.plist"; sourceTree = "<group>"; };
+		DF76551717BCF76E005176DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF76551917BCF76E005176DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF76551B17BCF76E005176DE /* Countly Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Countly Demo-Prefix.pch"; sourceTree = "<group>"; };
+		DF76551C17BCF76E005176DE /* BTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAppDelegate.h; sourceTree = "<group>"; };
+		DF76551D17BCF76E005176DE /* BTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAppDelegate.m; sourceTree = "<group>"; };
+		DF76551F17BCF76E005176DE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DF76552117BCF76E005176DE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DF76552317BCF76E005176DE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DF76552517BCF76E005176DE /* BTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTViewController.h; sourceTree = "<group>"; };
+		DF76552617BCF76E005176DE /* BTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTViewController.m; sourceTree = "<group>"; };
+		DF76552917BCF76E005176DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BTViewController.xib; sourceTree = "<group>"; };
+		DF76553117BCF784005176DE /* Countly_OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Countly_OpenUDID.h; path = ../Countly_OpenUDID.h; sourceTree = "<group>"; };
+		DF76553217BCF784005176DE /* Countly_OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Countly_OpenUDID.m; path = ../Countly_OpenUDID.m; sourceTree = "<group>"; };
+		DF76553317BCF784005176DE /* Countly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Countly.h; path = ../Countly.h; sourceTree = "<group>"; };
+		DF76553417BCF784005176DE /* Countly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Countly.m; path = ../Countly.m; sourceTree = "<group>"; };
+		DF76553617BCF784005176DE /* Countly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Countly.xcdatamodel; sourceTree = "<group>"; };
+		DF76553717BCF784005176DE /* CountlyDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountlyDB.h; path = ../CountlyDB.h; sourceTree = "<group>"; };
+		DF76553817BCF784005176DE /* CountlyDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountlyDB.m; path = ../CountlyDB.m; sourceTree = "<group>"; };
+		DF76553D17BCF8F5005176DE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DF76553F17BCF8FF005176DE /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF76550717BCF76E005176DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF76554017BCF8FF005176DE /* CoreTelephony.framework in Frameworks */,
+				DF76553E17BCF8F5005176DE /* CoreData.framework in Frameworks */,
+				DF76550E17BCF76E005176DE /* UIKit.framework in Frameworks */,
+				DF76551017BCF76E005176DE /* Foundation.framework in Frameworks */,
+				DF76551217BCF76E005176DE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF76550117BCF76E005176DE = {
+			isa = PBXGroup;
+			children = (
+				DF76553017BCF775005176DE /* SDK */,
+				DF76551317BCF76E005176DE /* Countly Demo */,
+				DF76550C17BCF76E005176DE /* Frameworks */,
+				DF76550B17BCF76E005176DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF76550B17BCF76E005176DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF76550A17BCF76E005176DE /* Countly Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF76550C17BCF76E005176DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF76553F17BCF8FF005176DE /* CoreTelephony.framework */,
+				DF76553D17BCF8F5005176DE /* CoreData.framework */,
+				DF76550D17BCF76E005176DE /* UIKit.framework */,
+				DF76550F17BCF76E005176DE /* Foundation.framework */,
+				DF76551117BCF76E005176DE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF76551317BCF76E005176DE /* Countly Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DF76551C17BCF76E005176DE /* BTAppDelegate.h */,
+				DF76551D17BCF76E005176DE /* BTAppDelegate.m */,
+				DF76552517BCF76E005176DE /* BTViewController.h */,
+				DF76552617BCF76E005176DE /* BTViewController.m */,
+				DF76552817BCF76E005176DE /* BTViewController.xib */,
+				DF76551417BCF76E005176DE /* Supporting Files */,
+			);
+			path = "Countly Demo";
+			sourceTree = "<group>";
+		};
+		DF76551417BCF76E005176DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF76551517BCF76E005176DE /* Countly Demo-Info.plist */,
+				DF76551617BCF76E005176DE /* InfoPlist.strings */,
+				DF76551917BCF76E005176DE /* main.m */,
+				DF76551B17BCF76E005176DE /* Countly Demo-Prefix.pch */,
+				DF76551F17BCF76E005176DE /* Default.png */,
+				DF76552117BCF76E005176DE /* Default@2x.png */,
+				DF76552317BCF76E005176DE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF76553017BCF775005176DE /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				DF76553317BCF784005176DE /* Countly.h */,
+				DF76553417BCF784005176DE /* Countly.m */,
+				DF76553517BCF784005176DE /* Countly.xcdatamodeld */,
+				DF76553117BCF784005176DE /* Countly_OpenUDID.h */,
+				DF76553217BCF784005176DE /* Countly_OpenUDID.m */,
+				DF76553717BCF784005176DE /* CountlyDB.h */,
+				DF76553817BCF784005176DE /* CountlyDB.m */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF76550917BCF76E005176DE /* Countly Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF76552D17BCF76E005176DE /* Build configuration list for PBXNativeTarget "Countly Demo" */;
+			buildPhases = (
+				DF76550617BCF76E005176DE /* Sources */,
+				DF76550717BCF76E005176DE /* Frameworks */,
+				DF76550817BCF76E005176DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Countly Demo";
+			productName = "Countly Demo";
+			productReference = DF76550A17BCF76E005176DE /* Countly Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF76550217BCF76E005176DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Bluetoo;
+			};
+			buildConfigurationList = DF76550517BCF76E005176DE /* Build configuration list for PBXProject "Countly Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF76550117BCF76E005176DE;
+			productRefGroup = DF76550B17BCF76E005176DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF76550917BCF76E005176DE /* Countly Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF76550817BCF76E005176DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF76551817BCF76E005176DE /* InfoPlist.strings in Resources */,
+				DF76552017BCF76E005176DE /* Default.png in Resources */,
+				DF76552217BCF76E005176DE /* Default@2x.png in Resources */,
+				DF76552417BCF76E005176DE /* Default-568h@2x.png in Resources */,
+				DF76552A17BCF76E005176DE /* BTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF76550617BCF76E005176DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF76551A17BCF76E005176DE /* main.m in Sources */,
+				DF76551E17BCF76E005176DE /* BTAppDelegate.m in Sources */,
+				DF76552717BCF76E005176DE /* BTViewController.m in Sources */,
+				DF76553917BCF784005176DE /* Countly_OpenUDID.m in Sources */,
+				DF76553A17BCF784005176DE /* Countly.m in Sources */,
+				DF76553B17BCF784005176DE /* Countly.xcdatamodeld in Sources */,
+				DF76553C17BCF784005176DE /* CountlyDB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF76551617BCF76E005176DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF76551717BCF76E005176DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF76552817BCF76E005176DE /* BTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF76552917BCF76E005176DE /* en */,
+			);
+			name = BTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF76552B17BCF76E005176DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF76552C17BCF76E005176DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF76552E17BCF76E005176DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Countly Demo/Countly Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"COUNTLY_IGNORE_INVALID_CERTIFICATES=1",
+				);
+				INFOPLIST_FILE = "Countly Demo/Countly Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF76552F17BCF76E005176DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Countly Demo/Countly Demo-Prefix.pch";
+				INFOPLIST_FILE = "Countly Demo/Countly Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF76550517BCF76E005176DE /* Build configuration list for PBXProject "Countly Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF76552B17BCF76E005176DE /* Debug */,
+				DF76552C17BCF76E005176DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF76552D17BCF76E005176DE /* Build configuration list for PBXNativeTarget "Countly Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF76552E17BCF76E005176DE /* Debug */,
+				DF76552F17BCF76E005176DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF76553517BCF784005176DE /* Countly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF76553617BCF784005176DE /* Countly.xcdatamodel */,
+			);
+			currentVersion = DF76553617BCF784005176DE /* Countly.xcdatamodel */;
+			name = Countly.xcdatamodeld;
+			path = ../Countly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF76550217BCF76E005176DE /* Project object */;
+}
